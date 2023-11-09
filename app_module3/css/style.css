@@ -1,0 +1,526 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.promo {
+	min-height: 100%;
+	background: url('../img/bg/заднийфонначало.jpeg') center center/cover
+		no-repeat;
+	padding: 40px 0 12px 0;
+}
+
+.menu {
+	flex-direction: row;
+	display: flex;
+	justify-content: space-around;
+	color: #ffffff;
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.menu_item {
+	margin-left: -18%;
+	margin-right: -18%;
+}
+
+.menu_zag {
+	margin-left: -15%;
+}
+
+.menu_img {
+	margin-right: -15%;
+}
+
+.promo_ful_text {
+	color: aliceblue;
+	margin-top: 270px;
+	margin-left: 400px;
+}
+
+.title {
+	font-size: 75px;
+}
+
+.promo_text {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.promo_mini_text {
+	margin-top: 17px;
+	font-size: 15px;
+	color: #faf3e3;
+}
+
+.four_box {
+	margin-top: -50px;
+}
+
+.box1 {
+	background-color: #2378fc;
+	height: 200px;
+	width: 300px;
+	margin-left: 1000px;
+}
+
+.box2 {
+	background-color: #30bcc9;
+	height: 200px;
+	width: 300px;
+	margin-left: 1000px;
+	margin-top: 33px;
+}
+
+.box3 {
+	background-color: #ffc41e;
+	height: 200px;
+	width: 300px;
+	margin-left: 1333px;
+	margin-bottom: 33px;
+}
+
+.box4 {
+	background-color: #f6404f;
+	height: 200px;
+	width: 300px;
+	margin-left: 1333px;
+}
+
+.box34 {
+	margin-top: -433px;
+}
+
+.box1_text {
+	margin-left: 40px;
+	color: white;
+	margin-top: 20px;
+}
+
+.box1_link {
+	color: white;
+	margin-left: 40px;
+}
+
+.box2_text {
+	margin-left: 40px;
+	color: white;
+	margin-top: 20px;
+}
+
+.box2_link {
+	color: white;
+	margin-left: 40px;
+}
+
+.box3_text {
+	margin-left: 40px;
+	color: white;
+	margin-top: 20px;
+}
+
+.box3_link {
+	color: white;
+	margin-left: 40px;
+}
+
+.box4_text {
+	margin-left: 40px;
+	color: white;
+	margin-bottom: -20px;
+}
+
+.box4_link {
+	color: white;
+	margin-left: 40px;
+}
+
+.waiting {
+	min-height: 100%;
+	background-color: #2378fc;
+	padding: 85px 0 75px 0;
+}
+
+.colonis {
+	flex-direction: row;
+	justify-content: space-evenly;
+	display: flex;
+}
+
+.colum1 {
+	color: aliceblue;
+	margin-left: 310px;
+}
+
+.colum1_text0 {
+	font-weight: bold;
+	font-size: 32px;
+	color: aliceblue;
+}
+
+.colum1_text1 {
+	color: yellow;
+	margin-top: 20px;
+}
+
+.colum1_text2 {
+	margin-top: 20px;
+	color: aliceblue;
+}
+
+.text {
+	margin-top: 40px;
+	flex-direction: column;
+	font-weight: lighter;
+}
+
+.colum2 {
+	color: aliceblue;
+}
+
+.colum2_text1 {
+	font-weight: bold;
+	font-size: 32px;
+	color: aliceblue;
+}
+
+.colum2_text2 {
+	margin-top: 20px;
+	flex-direction: column;
+	font-weight: lighter;
+	color: aliceblue;
+}
+
+.colum3 {
+	color: aliceblue;
+}
+
+.colum3_text1 {
+	font-weight: bold;
+	font-size: 32px;
+	color: aliceblue;
+}
+
+.colum3_text2 {
+	margin-top: 20px;
+	flex-direction: column;
+	font-weight: lighter;
+	color: aliceblue;
+}
+
+.colum4 {
+	color: aliceblue;
+	margin-right: 310px;
+}
+
+.colum4_text1 {
+	font-weight: bold;
+	font-size: 32px;
+	color: aliceblue;
+}
+
+.colum4_text2 {
+	margin-top: 20px;
+	flex-direction: column;
+	font-weight: lighter;
+	color: aliceblue;
+}
+
+.block3 {
+	min-height: 100%;
+	background-color: #ffc41e;
+	padding: 85px 0 75px 0;
+}
+
+.block3_text {
+	flex-direction: row;
+	justify-content: space-around;
+	display: flex;
+}
+
+.block3_text1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.block3_text2 {
+	font-size: 21px;
+}
+
+.elka {
+	margin-left: 100px;
+}
+
+.nevsk {
+	margin-right: 100px;
+}
+
+.all1 {
+	margin-top: 70px;
+	flex-direction: row;
+	justify-content: space-evenly;
+	display: flex;
+}
+
+.all2 {
+	margin-top: 70px;
+	flex-direction: row;
+	justify-content: space-evenly;
+	display: flex;
+}
+
+.elkaname {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+.jenwexname {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+.nevskname {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+.ponaehalaname {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+.exponame {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+.vetname {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+.elka {
+	margin-left: 400px;
+}
+
+.nevsk {
+	margin-right: 400px;
+}
+
+.ponaehala {
+	margin-left: 400px;
+}
+
+.vet {
+	margin-right: 400px;
+}
+
+.block3_text1 {
+	margin-left: 230px;
+}
+
+.block3_text2 {
+	margin-right: 230px;
+}
+
+.block4 {
+	min-height: 100%;
+	background-color: #faf3e3;
+	padding: 85px 0 75px 0;
+}
+
+.nom1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-left: 480px;
+}
+
+.nom1img1 {
+	height: 215px;
+	width: 455px;
+}
+
+.nom1img2 {
+	margin-top: 30px;
+	height: 215px;
+	width: 455px;
+}
+
+.block3_text2 {
+	color: black;
+}
+
+.nom2 {
+	flex-direction: row;
+	display: flex;
+	margin-top: -460px;
+}
+
+.allnew {
+	margin-left: 400px;
+	font-size: 20px;
+	margin-top: -30px;
+	color: black;
+}
+
+.new {
+	margin-top: -30px;
+	margin-left: 1000px;
+	font-size: 35px;
+}
+
+.devushka {
+	margin-left: 1000px;
+	margin-top: 44px;
+}
+
+.data1 {
+	margin-top: -110px;
+	margin-left: 1200px;
+	font-size: 15px;
+	color: red;
+}
+
+.texticon1 {
+	margin-left: 1200px;
+	font-size: 22px;
+}
+
+.allpeople1 {
+	margin-left: 1000px;
+	margin-top: 27px;
+}
+
+.data2 {
+	margin-top: -110px;
+	margin-left: 1200px;
+	font-size: 15px;
+	color: red;
+}
+
+.texticon2 {
+	margin-left: 1200px;
+	font-size: 22px;
+}
+.allpeople2 {
+	margin-left: 1000px;
+	margin-top: 27px;
+}
+
+.data3 {
+	margin-top: -110px;
+	margin-left: 1200px;
+	font-size: 15px;
+	color: red;
+}
+
+.texticon3 {
+	margin-left: 1200px;
+	font-size: 22px;
+}
+
+.last {
+	background-color: #30bcc9;
+	min-height: 100%;
+	padding: 85px 0 75px 0;
+}
+
+.colon14 {
+	flex-direction: row;
+	justify-content: space-around;
+	display: flex;
+	color: aliceblue;
+	margin-top: -30px;
+}
+
+.colona1 {
+	margin-left: 373px;
+}
+
+.strok2 {
+	color: #ffc41e;
+}
+
+.colona2 {
+	margin-left: 95px;
+}
+
+.colona4 {
+	margin-right: 450px;
+}
+
+.strok8 {
+	margin-left: 17px;
+}
+
+.yt {
+	margin-left: 20px;
+}
+
+.vk {
+	margin-left: 20px;
+}
+
+.fc {
+	margin-left: 20px;
+}
+
+.inst {
+	margin-left: 20px;
+}
+
+.colon58 {
+	flex-direction: row;
+	justify-content: space-around;
+	display: flex;
+	color: aliceblue;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+
+.colona5 {
+	margin-left: 350px;
+}
+
+.colona8 {
+	margin-right: 400px;
+}
+
+.colona8 {
+	margin-top: -70px;
+}
+
+.strok3 {
+	color: aliceblue;
+}
+
+.strok5 {
+	color: aliceblue;
+}
+
+.strok11 {
+	color: aliceblue;
+}
+
+.strok13 {
+	color: aliceblue;
+}
+
+.strok7 {
+	color: #ffffff;
+}
